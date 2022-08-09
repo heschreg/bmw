@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>BM Wolfstein</title>
+
+    <!-- <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">  -->
+
+   <link href="./bootstrap/css/bootstrap1.css" rel="stylesheet">
+   <link href="./css/MyStyleSheet.css" rel="stylesheet">
+
+   <script src="./scripts/jquery-2.0.0.min.js"></script>
+   <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div id="wrap">
+
+    <div id="main">
+
+        <h1 class="header">  <img src="./images/federball_90.jpg"> B A D M I N T O N  &nbsp  TSV Wolfstein  (Neumarkt) <img src="./images/federball_90.jpg"> </h1>
+
+        <!--data-interval="3000" -->
+        <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" data-pause="hover" data-wrap=true>
+
+           <!-- Carousel indicators -->   
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>   
+
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="./images/carousel/bild_06.jpg" class="img-responsive" alt="siehe index.html">
+                </div>
+
+                <div class="item">
+                    <img src="./images/carousel/bild_01.jpg" class="img-responsive" alt="siehe index.html">
+                </div>
+
+                <div class="item">
+                    <img src="./images/carousel/bild_02.jpg" class="img-responsive" alt="siehe index.html"> 
+                </div>
+
+                <div class="item">
+                    <img src="./images/carousel/bild_03.jpg" class="img-responsive" alt="siehe index.html">
+                </div>
+
+                <div class="item">
+                    <img src="./images/carousel/bild_04.jpg" class="img-responsive" alt="siehe index.html"> 
+                </div>
+
+                <div class="item">
+                    <img src="./images/carousel/bild_05.jpg" class="img-responsive" alt="siehe index.html"> 
+                </div>
+
+            </div>
+
+           <!-- Carousel nav -->
+           <a class="carousel-control left" href="#myCarousel" 
+              data-slide="prev">&lsaquo;</a>
+           <a class="carousel-control right" href="#myCarousel" 
+              data-slide="next">&rsaquo;</a>
+        </div> 
+
+        <nav role="navigation" class="navbar navbar-default">
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="training.html">Training</a></li>
+    
+                    <li class="dropdown">
+
+                         <a href="#" data-toggle="dropdown" class="dropdown-toggle">Mannschaften<b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a href="mannschaft_1.html">1. Mannschaft (Bezirksliga Nord)</a></li>
+                            <li><a href="mannschaft_2.html">2. Mannschaft (B-Klasse Nord)</a></li>
+                            <li class="divider"></li>
+                            <li><a href="schueler_1.html">U15 - Sch&uumllermannschaft (Bezirksoberliga)</a></li>
+
+                        </ul>
+
+                    </li> 
+
+                    <li class="dropdown menutab_bgr">
+
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Ergebnisdienst <b class="caret"></b></a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a href="ergebnisdienst_aktive.html">1. Mannschaft und 2. Mannschaft</a></li>
+                            <li class="active" ><a href="#">Sch&uumllermannschaft (U11, U13 und U15)</a></li>
+                            <li class="divider"></li>
+                            <li><a href="ergebnisdienst_km_2011.html">Kreismeisterschaften 2011</a></li>
+                            <li><a href="ergebnisdienst_km_2015.html">Kreismeisterschaften 2015</a></li>
+
+                        </ul>
+
+                    </li>
+                 
+                    <li><a href="galerie.html">Bildergalerien</a></li>
+
+                    <li><a href="funktionaere.html">Funktion&aumlre</a></li>
+
+                    <li ><a href="links.html">Links</a></li>
+
+                    <li style="padding-left:60px"> &nbsp</li>
+
+                    <li><a href="historie.html">Meilensteine</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Archiv <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="archiv_ligen.html">Ergebnisse aus den Ligen </a></li>
+                            <li><a href="archiv_mf.html">Mannschaftsf&uumlhrer</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown yonex_bgr">
+
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" >YONEX-Katalog</span><b class="caret"></b></a>
+
+                        <ul class="dropdown-menu2">
+
+                            <li><a id ="bestellservice" href="#bestellserviceModal" data-toggle="modal"> &#8658 &nbsp  Bestellservice</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/racquets"><span class="yonex_bgr_blue"> &#8658 &nbsp Schl&aumlger</span></a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/footwear">&#8658 &nbsp Schuhe</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/bags">&#8658 &nbsp Taschen</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/clothing">&#8658 &nbsp Bekleidung</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/string/strings/">&#8658 &nbsp Saiten</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/grip-tape">&#8658 &nbsp Griffb&aumlnder</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/accessories">&#8658 &nbsp Accessoires</a></li>
+                            <li class="divider"></li>
+                            <li><a target ="_blank" href="http://www.yonex.de/sports/badminton/products/badminton/lcw-limited-edition">&#8658 &nbsp Limited Edition</a></li>
+
+                        </ul>
+
+                    </li> 
+                    <li style="padding-left: 7px"> &nbsp</li>
+                    <li class="yonex_bgr"><a href="service.html">Bespannungsservice</a></li>
+
+                </ul>
+             </div>
+        </nav>
+
+        <div class="training">
+
+            </br>
+
+            <h3>Ergebnisse unserer U15 Sch&uumllermannschaft in der aktuellen Saison </h3>
+
+            </br>
+
+            <table class="table table-striped table-hover">
+
+                 <th> Saison 2014 / 2015</th>
+
+                 <tr>
+                 <td style="width: 300px">Sch&uuml;ler U15 - Bezirksoberliga Mitte</td>
+                 <td style="width: 200px"> <a style="color: blue" href=http://www.alleturniere.de/sport/draw.aspx?id=5892ECDD-1447-4D3B-ABF2-99A596D92E79&draw=52 target=_new>Tabelle</a></td>
+                 <td> <a style="color: blue" href=http://www.alleturniere.de/sport/draw.aspx?id=5892ECDD-1447-4D3B-ABF2-99A596D92E79&draw=91 target=_new>Ergebnisse</a></td>
+                 </tr>
+
+            </table>
+
+        </div>
+
+    <!-- Ende von div id = #main-->
+	</div>
+
+<!-- Ende von div id = #wrap-->
+</div>
+
+
+
+<div id="footer">
+
+   <ul class="nav navbar-nav">
+	    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li><a href="#kontaktModal" data-toggle="modal"> <span class="glyphicon glyphicon-envelope"></span> Kontakt</a></li>
+        <li><a href="#impressumModal" data-toggle="modal"> <span class="glyphicon glyphicon-info-sign"></span> Impressum</a></li>
+    </ul>
+
+    <div class="impr">badminton24.eu/wolfstein Copyright &copy2015</div>
+
+</div>
+
+    <!-- Modal HTML -->
+    <div id="kontaktModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Kontaktinformationen</h4>
+                </div>
+                <div class="modal-body">
+                    Sehr geehrter Badmintonfreund, <br>
+                    <br>
+                    f&uumlr Fragen und Anliegen aller Art kannst Du jederzeit Kontakt mit uns aufnehmen:
+                    <br>
+                    <br>
+                    eMail: <span class= "farbig">bmwolfstein@gmail.com</span>
+                    <br>
+                    <br>
+                    telefonisch: <span class= "farbig">0176 / 55 11 20 66</span>
+                    <br>
+                    <br>
+                    Wir freuen uns &uumlber Deine Nachricht!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal HTML -->
+    <div id="impressumModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Impressum</h4>
+                </div>
+
+                <div class="modal-body">
+
+                    TSV Wolfstein - Abteilung Badminton<br>
+                    Wolfsteinstr. 2<br>
+                    92318 Neumarkt<br>
+                    Telefon:  +49 0176 55112066<br>
+                    E-Mail: bmwolfstein@gmail.com<br>
+                    <br>
+                    Haftungsausschluss
+                    <br>
+                    <br>
+                    1. Inhalt des Onlineangebotes
+                    <br>
+                    TSV Wolfstein &uumlbernimmt keinerlei Gew&aumlhr f&uumlr die Aktualit&aumlt, Korrektheit, Vollst&aumlndigkeit oder Qualit&aumlt der bereitgestellten Informationen. 
+                    Haftungsanspr&uumlche gegen den TSV Wolfstein, die sich auf Sch&aumlden materieller oder ideeller Art beziehen, welche durch die Nutzung oder Nichtnutzung der dargebotenen 
+                    Informationen bzw. durch die Nutzung fehlerhafter und unvollst&aumlndiger Informationen verursacht wurden sind grunds&aumltzlich ausgeschlossen, 
+                    sofern seitens TSV Wolfstein kein nachweislich vors&aumltzliches oder grob fahrl&aumlssiges Verschulden vorliegt.
+                    Alle Angebote sind freibleibend und unverbindlich. TSV Wolfstein beh&aumllt es sich ausdr&uumlcklich vor, 
+                    Teile der Seiten oder das gesamte Angebot ohne gesonderte Ank&uumlndigung zu ver&aumlndern, zu erg&aumlnzen, zu l&oumlschen oder die Ver&oumlffentlichung zeitweise
+                    oder endg&uumlltig einzustellen.
+                    <br>
+                    <br>
+                    2. Verweise und Links
+                    <br>
+                    Sofern auf Verweisziele ("Links") direkt oder indirekt verwiesen wird, die ausserhalb des Verantwortungsbereiches von TSV Wolfstein liegen, haftet diese nur dann, 
+                    wenn sie von den Inhalten Kenntnis hat und es ihr technisch m&oumlglich und zumutbar w&aumlre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern. 
+                    F&uumlr dar&uumlber hinausgehende Inhalte und insbesondere f&uumlr Sch&aumlden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, 
+                    haftet allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der ber Links auf die jeweilige Ver&oumlffentlichung lediglich verweist. 
+                    Diese Einschr&aumlnkung gilt gleichermassen auch f&uumlr Fremdeintr&aumlge in von TSV Wolfstein eingerichteten G&aumlsteb&uumlchern, Diskussionsforen und Mailinglisten.
+                    <br>
+                    <br>
+                    3. Urheberrecht
+                    <br>
+                    TSV Wolfstein ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, 
+                    von ihr selbst erstellte Grafiken, Tondokumente, Videosequenzen und Texte zu nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte 
+                    zur&uumlckzugreifen. Sollte sich auf den jeweiligen Seiten dennoch eine ungekennzeichnete, aber durch fremdes Copyright gesch&uumltzte Grafik, 
+                    ein Tondokument, eine Videosequenz oder Text befinden, so konnte das Copyright von TSV Wolfstein nicht festgestellt werden.
+                    Eine Vervielf&aumlltigung oder Verwendung solcher Grafiken, Tondokumente, Videosequenzen und Texte in anderen elektronischen oder gedruckten Publikationen 
+                    ist ohne ausdr&uumlckliche Zustimmung von TSV Wolfstein nicht gestattet.
+                    <br>
+                    <br>
+                    4. Rechtswirksamkeit dieses Haftungsausschlusses
+                    <br>
+                    Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen
+                    dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollst&aumlndig entsprechen sollten, bleiben die &uumlbrigen Teile des Dokumentes in ihrem Inhalt
+                    und ihrer G&uumlltigkeit davon unber&uumlhrt.                
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Modal HTML -->
+    <div id="bestellserviceModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Informationen zur Bestellung von Artikeln der Firma Yonex</h4>
+                </div>
+                <div class="modal-body">
+                    Sehr geehrter Yonex-Interessent, 
+                    <br>
+                    <br>
+                    als autorisierter Yonex-H&aumlndler kann ich alle Fragen bzgl. der Produktpalette der Firma Yonex umfassend beantworten.
+                    <br>
+                    <br>
+                    Preisanfragen sind jederzeit willkommen.
+                    <br>
+                    <br>
+                    Bestellungen werden innerhalb weniger Werktage ausgef&uumlhrt.
+                    <br>
+                    <br>
+                    eMail: <span class= "farbig">hschreglmann@gmail.com</span>
+                    <br>
+                    <br>
+                    telefonisch: <span class= "farbig">0176 / 55 11 20 66</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

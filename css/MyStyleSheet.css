@@ -1,0 +1,229 @@
+
+/*
+    Autor: Heribert Schreglmann
+    Datum: 05.01.2015
+    Stand; 05.01.2015
+    
+*/
+
+html, body {height: 100%;}
+
+#eyecatcher {
+  padding-left: 20px;
+  color: red
+  ;
+  font-size: 300%;
+}
+
+#eyecatcher1 {
+  padding-left: 20px;
+  color:green
+  ;
+  font-size: 300%;
+}
+
+
+#eyecatcher2 {
+  padding-left: 30px;
+  color:blue;
+  font-size: 200%;
+}
+
+#eyecatcher3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#wrap {min-height: 100%;}
+
+#main {
+    overflow:auto;
+	padding-bottom: 40px; /* must be same height as the footer */
+}  
+
+#footer {
+  position: relative;
+  margin-top: -40px; /* negative value of footer height */
+  height: 40px;      /* Set the fixed height of the footer here */
+  width: 100%;
+  clear:both;
+  padding-right: 12px;
+  background: 
+  /* color overlay */ 
+    linear-gradient(
+      rgba(172, 180, 204, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+
+    /*  
+    bottom: 0;
+    */
+
+}
+
+
+#footer_mini {
+  position: absolute;
+  margin-top: 10px;
+  bottom: 0;
+  width: 100%;
+  
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background: 
+  /* color overlay */ 
+    linear-gradient(
+      rgba(240, 212, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+.header {
+    text-align: center;
+  margin: 0;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  color: #ccc;
+  background-color: #000;
+  
+  /*
+  background-color: #2b67a1;
+  border: 11px solid #c0c0c0;
+  */
+}
+
+.h3_mini {
+    font-size: 14px;
+}
+
+.item {
+   background: #777;    
+   text-align: center;
+   height: 300px !important;
+}
+
+
+.menutab_bgr {
+    
+     background-color: #f8f8f8;
+
+     background: 
+        /* color overlay */ 
+        linear-gradient( rgba(240, 212, 0, 0.45), rgba(0, 0, 0, 0.45) ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+.yonex_bgr {
+    color: #000;
+    font-size: 16px;
+    background: rgba(163,174,255,1);
+    background: -moz-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,174,255,1)), color-stop(0%, rgba(168,92,255,1)), color-stop(1%, rgba(102,102,247,1)), color-stop(50%, rgba(5,47,255,1)), color-stop(50%, rgba(97,255,144,1)), color-stop(50%, rgba(102,102,247,1)), color-stop(50%, rgba(0,194,136,1)), color-stop(100%, rgba(0,194,136,1)));
+    background: -webkit-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: -o-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: -ms-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: linear-gradient(to bottom, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 0%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3aeff', endColorstr='#00c288', GradientType=0 );
+}
+
+.yonex_bgr_active {
+    color: #ff0;
+    font-size: 16px;
+    background: rgba(163,174,255,1);
+    background: -moz-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,174,255,1)), color-stop(0%, rgba(168,92,255,1)), color-stop(1%, rgba(102,102,247,1)), color-stop(50%, rgba(5,47,255,1)), color-stop(50%, rgba(97,255,144,1)), color-stop(50%, rgba(102,102,247,1)), color-stop(50%, rgba(0,194,136,1)), color-stop(100%, rgba(0,194,136,1)));
+    background: -webkit-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: -o-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: -ms-linear-gradient(top, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 1%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    background: linear-gradient(to bottom, rgba(163,174,255,1) 0%, rgba(168,92,255,1) 0%, rgba(102,102,247,1) 0%, rgba(5,47,255,1) 50%, rgba(97,255,144,1) 50%, rgba(102,102,247,1) 50%, rgba(0,194,136,1) 50%, rgba(0,194,136,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3aeff', endColorstr='#00c288', GradientType=0 );
+}
+
+/*
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+*/
+
+div.code {
+  padding: 9.5px;
+  margin: 0 0 50px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #000;
+  /* background-color: #fbe875; */
+  background-color: #BBBBBB;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  float: left;
+  /*
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  */
+}
+
+      
+div.code2 {
+  padding: 9.5px;
+  margin: 0 0 50px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #2b67a1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  float: left;
+}
+
+/*
+p.codep {
+  padding-top: 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #b6ff00;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+*/
+
+
+
+.mynavpad  {
+    padding-top: 0px;
+}
+
+.impr {
+    text-align: right;
+    padding-top: 10px;
+    color: #000;
+}
+
+
+.farbig {
+    color: #f00;
+}
+
+.training {
+  padding-left: 1%;
+  margin-left: 1%;
+  
+  /*
+  border: 11px solid #c0c0c0;
+  */
+}
+
+#bestellservice {
+    background-color: #f3a70c;
+}
+
+  
+  
